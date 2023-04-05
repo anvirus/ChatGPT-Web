@@ -11,6 +11,23 @@
 </head>
 
 <body class="dark:bg-black">
+	
+		<form>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password">
+		<input type="button" value="Submit" onclick="checkPassword()">
+	</form>
+	<script>
+		function checkPassword() {
+			var password = document.getElementById("password").value;
+			if (password == "19891989") {
+				window.location.href = "content.html";
+			} else {
+				alert("Incorrect password. Please try again.");
+			}
+		}
+	</script>
+	
 	<div id="app">
 		<style>
 			.loading-wrap {
@@ -78,24 +95,6 @@
 		</div>
 	</div>
 	<script type="module" src="/src/main.ts"></script>
-	
-	<form>
-		<label for="password">Password:</label>
-		<input type="password" id="password" name="password">
-		<input type="button" value="Submit" onclick="checkPassword()">
-	</form>
-	<script>
-		function checkPassword() {
-			var password = document.getElementById("password").value;
-			if (password == "19891989") {
-				window.location.href = "content.html";
-			} else {
-				alert("Incorrect password. Please try again.");
-			}
-		}
-	</script>
-	
-	
 </body>
 
 </html>
