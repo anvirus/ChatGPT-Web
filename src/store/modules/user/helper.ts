@@ -17,7 +17,7 @@ export function defaultSetting(): UserState {
     userInfo: {
       avatar: 'http://img.233.com/union/union_pc/union-temphone/downapp-bg.png',
       name: 'Jinma',
-      description: 'Star on <a href="https://tsinma.com" class="text-blue-500" target="_blank" >Tsinma</a>',
+      description: 'This is <a href="https://tsinma.com" class="text-blue-500" target="_blank" >Tsinma</a>',
     },
   }
 }
