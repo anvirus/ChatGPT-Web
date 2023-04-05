@@ -1,9 +1,9 @@
 {
-  "name": "chatgpt-web-service",
+  "name": "JinmaGpt",
   "version": "1.0.0",
   "private": false,
-  "description": "ChatGPT Web Service",
-  "author": "ChenZhaoYu <chenzhaoyu1994@gmail.com>",
+  "description": "JinmaGpt",
+  "author": "Iven <578000977@qq.com>",
   "keywords": [
     "chatgpt-web",
     "chatgpt",
